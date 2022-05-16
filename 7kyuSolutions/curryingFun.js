@@ -8,4 +8,4 @@
 // You must not mutate the original array.
 
 // --- Solution
-const multiplyAll = arr => i => arr.map((a) => a * i)
+const multiplyAll = (arr) => (i) => arr.map((a) => a * i);

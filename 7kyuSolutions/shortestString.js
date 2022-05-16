@@ -4,14 +4,13 @@
 
 // ---- Solution
 
-function findShort(s){
-    let word = s.split(' ')
-    let arr = [];
-    for(let i=0; i<word.length; i++){
-       for(let j=0; j<word[i].length; j++){
-            arr.push(word[i].length)
-       
-       }
+function findShort(s) {
+  let word = s.split(' ');
+  let arr = [];
+  for (let i = 0; i < word.length; i++) {
+    for (let j = 0; j < word[i].length; j++) {
+      arr.push(word[i].length);
     }
-    return Math.min(...arr);
+  }
+  return Math.min(...arr);
 }

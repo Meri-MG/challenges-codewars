@@ -8,9 +8,9 @@
 function killer(suspectInfo, dead) {
   //your code here...
   for (let key in suspectInfo) {
-    let suspect = dead.every((e) => suspectInfo[key].includes(e))
-    if(suspect){
-      return key
+    let suspect = dead.every((e) => suspectInfo[key].includes(e));
+    if (suspect) {
+      return key;
     }
   }
 }

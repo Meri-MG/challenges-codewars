@@ -6,7 +6,11 @@
 
 // ---Solution
 
-function squareDigits(num){
-  let nums = num.toString().split('').map((n) => n * n).join('');
+function squareDigits(num) {
+  let nums = num
+    .toString()
+    .split('')
+    .map((n) => n * n)
+    .join('');
   return +nums;
 }
