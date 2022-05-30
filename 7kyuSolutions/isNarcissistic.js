@@ -1,10 +1,6 @@
 function isNarcissistic(n) {
-let arr =  Array.from(n.toString()) 
-  let p = arr.length
-  let total = 0
-  
- 
- let each = arr.forEach((num) => {
+let arr =  Array.from(n.toString()),  p = arr.length, total = 0
+  arr.forEach((num) => {
      total += Math.pow(num, p)
  })
 
